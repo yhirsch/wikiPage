@@ -1,4 +1,31 @@
-.first-image{
+
+
+.secondimage {
     display: flex;
     align-items: flex-end;
+    outline: 1px solid rgb(0, 0, 0);
+}
+.secondimage {
+    position: absolute;
+    top: 5px;
+    right: 30px;
+  }
+
+.secondimage {
+    padding: 5px 0;
+    background: #CCC;
+}
+
+.secondimage:before {
+    content: "\a0";
+    display: block;
+    padding: 2px 0;
+    line-height: 1px;
+    border-top: 1px dashed #000;
+}
+
+.secondimage {
+
+    padding: 0 10px;
+
 }
